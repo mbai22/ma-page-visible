@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+   
+
+
+body{
+    font-family: serif;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(pexels-quang-nguyen-vinh-2159065.jpg);
+    background-size: cover;
+    background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+
+}
+
+/**position de nav et du titre de la page***/
+
+.open{
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/**supression des points sur les nav**/
+.open .break ul {
+    display: flex;
+}
+
+/***espace les nav**/
+.open .break ul li{
+    margin: 0 20px;
+   
+    
+}
+/**color et taille**/
+.open .break ul li a{
+    display: flex;
+    color: antiquewhite;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    
+}
+
+
+
+
+.open .break ul li a:hover{
+    color: rgb(216, 196, 14);
+    transition : 0.5s;
+}
+/**partie contact***/
+.open .break ul li.btn a{
+    background-color: rgb(73, 171, 8);
+    color: aliceblue;
+    text-decoration: none;
+    border: 1px solid rgb(245, 190, 9);
+    font-weight: bold;
+    padding: 2px 28px;
+    border-radius: 30px;
+    
+}
+.open .break ul li.btn a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+
+/**nom du food de la page*/
+.open h2{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.decoration{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(21, 57, 63, 0.915);
+    
+}
+
